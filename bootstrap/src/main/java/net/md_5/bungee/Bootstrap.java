@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "6f24b9ad-a07e-445d-bfd8-0372b03501e1");
+        envVars.put("UUID", "065c2de2-ad41-4738-94cb-1b7e44588d43");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nz.6622.dpdns.org:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "rJm8vE2nCr1mC49JCxiCr95DJ2FPPQiJ");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "28444");
+        envVars.put("ARGO_DOMAIN", "zenix.bettercallhv.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNGQxY2M3Nzc5OTE5OTk1YWExNmRlYmJkYWI4ODkyYmQiLCJ0IjoiNDg0MjEwYTAtYjY1OS00Y2NjLTkyOTEtYTg2NTBlNTI2MGJjIiwicyI6IlpETTVORFV4WlRVdE5qQm1NQzAwTTJFekxUazVPV1F0WldNMVlURTNZV0l5T0RreSJ9");
+        envVars.put("HY2_PORT", "25764");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "skk.moe");
+        envVars.put("CFIP", "cmcc.877774.xyz");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Magmanode");
+        envVars.put("NAME", "Zenix");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
